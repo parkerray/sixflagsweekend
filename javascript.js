@@ -11,5 +11,5 @@ const x = setInterval(function() {
     document.querySelector("#countdown").innerHTML = `${days}d : ${hours}h : ${minutes}m : ${seconds}s`;
 }, 1000);
 
-const countDownElement = document.querySelector("countdown");
+const countDownElement = document.querySelector("#countdown");
 countDownElement.classList.remove("hide");
